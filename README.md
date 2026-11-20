@@ -1,3 +1,7 @@
+<!-- 🌊 Animated Wave Header -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1B2F4B,50:7FB8C9,100:E8A33D&height=140&section=header&text=Mabuhay!%20%F0%9F%87%B5%F0%9F%87%AD&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38" width="100%" />
+</p>
 
 <!-- 🖼️ NASA PH Cover -->
 <p align="center">
@@ -14,11 +18,12 @@
   <img src="https://img.shields.io/badge/Status-Available_for_work-E8A33D?style=flat-square" />
   <img src="https://img.shields.io/badge/Location-Koronadal_City%2C_PH-7FB8C9?style=flat-square&logo=googlemaps&logoColor=white" />
   <img src="https://img.shields.io/badge/NASA_PH-Est._2024-1B2F4B?style=flat-square" />
+  <img src="https://komarev.com/ghpvc/?username=Laden8210&label=Profile%20views&color=E8A33D&style=flat-square" />
 </p>
 
----
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-## 👨‍💻 About Me
+## <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="32"> About Me
 
 <img src="./assets/nasa-ph-logo.jpg" align="right" width="280" alt="NASA PH logo" />
 
@@ -34,7 +39,26 @@ I architect end-to-end applications across **web, iOS, and Android**, specializi
 
 <br clear="right"/>
 
----
+<details>
+<summary><b>⚡ Fun facts (click to expand)</b></summary>
+<br/>
+
+```ts
+const john = {
+  basedIn: "Koronadal City, South Cotabato 🇵🇭",
+  collective: "NASA PH — Filipino Developer's Collective",
+  dayJob: "Full Stack Developer @ ai2aim.ai",
+  currentlyBuilding: ["Hivemind (multi-tenant AI platform)", "RAG pipelines", "MCP integrations"],
+  learning: ["Pentesting", "Autonomous AI agents", "DevOps trends"],
+  hobbies: ["Hackathons 🏆", "Robotics 🤖", "IoT prototypes 🔌"],
+  askMeAbout: ["Laravel", "Next.js", "React Native", "Terraform"],
+  funFact: "I turn coffee ☕ into deployed code 🚀",
+};
+```
+
+</details>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 ## 💼 Experience
 
@@ -53,9 +77,17 @@ I architect end-to-end applications across **web, iOS, and Android**, specializi
 - Containerized applications with Docker
 - Integrated GCP Vertex AI and Supabase into real-time web apps
 
----
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 ## 🚀 Tech Stack
+
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=nextjs,react,ts,tailwind,nestjs,laravel,php,express,py,fastapi,prisma&perline=11" />
+    <br/>
+    <img src="https://skillicons.dev/icons?i=docker,terraform,githubactions,gcp,aws,supabase,firebase,postgres,mysql,linux,arduino,raspberrypi&perline=12" />
+  </a>
+</p>
 
 **📱 Mobile**
 <p>
@@ -124,7 +156,7 @@ I architect end-to-end applications across **web, iOS, and Android**, specializi
   <img src="https://img.shields.io/badge/Raspberry_Pi-A22846?style=for-the-badge&logo=raspberrypi&logoColor=white" />
 </p>
 
----
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 ## 🧩 What I Do
 
@@ -140,7 +172,7 @@ I architect end-to-end applications across **web, iOS, and Android**, specializi
 | 🔐 | **Security** | Pentesting, OWASP Top 10, network security |
 | 🤖 | **Robotics & IoT** | Arduino, Raspberry Pi, sensors |
 
----
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 ## 🌟 Featured Projects
 
@@ -161,7 +193,7 @@ I architect end-to-end applications across **web, iOS, and Android**, specializi
 
 <p align="center"><i>More on <a href="http://nasa-ph.com/">nasa-ph.com</a></i></p>
 
----
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 ## 🎓 Education & Certifications
 
@@ -170,17 +202,38 @@ I architect end-to-end applications across **web, iOS, and Android**, specializi
 - 🛡️ **Pre Security Certificate** — TryHackMe *(Jun 2026)* · [Credential](https://tryhackme.com/certificate/THM-YJQLKQYGIR)
 - 🖥️ **Computer Systems Servicing NC II** — TESDA *(Dec 2025)*
 
----
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 ## 📈 GitHub Insights
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Laden8210&show_icons=true&theme=tokyonight" height="160"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Laden8210&layout=compact&theme=tokyonight" height="160"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Laden8210&theme=tokyonight" height="160"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=Laden8210&show_icons=true&count_private=true&bg_color=1B2F4B&title_color=E8A33D&icon_color=7FB8C9&text_color=FFFFFF&hide_border=true" height="165"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Laden8210&layout=compact&bg_color=1B2F4B&title_color=E8A33D&icon_color=7FB8C9&text_color=FFFFFF&hide_border=true" height="165"/>
 </p>
 
----
+<p align="center">
+  <img src="https://streak-stats.demolab.com/?user=Laden8210&background=1B2F4B&ring=E8A33D&fire=E8A33D&currStreakLabel=E8A33D&sideLabels=7FB8C9&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=7FB8C9&stroke=7FB8C9&hide_border=true" height="165"/>
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Laden8210&bg_color=1B2F4B&color=FFFFFF&line=E8A33D&point=7FB8C9&area=true&area_color=7FB8C9&hide_border=true&custom_title=Contribution%20Activity" width="100%"/>
+</p>
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=Laden8210&theme=onedark&no-frame=true&no-bg=true&margin-w=6&row=1&column=7" />
+</p>
+
+### 🐍 Contribution Snake
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Laden8210/Laden8210/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Laden8210/Laden8210/output/github-snake.svg" />
+    <img alt="Contribution snake animation" src="https://raw.githubusercontent.com/Laden8210/Laden8210/output/github-snake.svg" />
+  </picture>
+</p>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 ## 🧠 My Workflow
 
@@ -194,7 +247,7 @@ graph TD;
     F --> A
 ```
 
----
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 ## 🌍 Connect With Me
 
@@ -206,13 +259,17 @@ graph TD;
   <a href="https://github.com/Laden8210"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
 </p>
 
----
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 <p align="center">
-  <img src="https://media.giphy.com/media/13HgwGsXF0aiGY/giphy.gif" width="120" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&pause=1500&color=E8A33D&center=true&vCenter=true&width=700&lines=%22Innovation+is+seeing+what+everybody+has+seen;and+thinking+what+nobody+has+thought.%22;%E2%80%94+Dr.+Albert+Szent-Gy%C3%B6rgyi" alt="Quote" />
 </p>
 
 <p align="center">
-  <b>"Innovation is seeing what everybody has seen and thinking what nobody has thought."</b><br/>
-  <i>— Dr. Albert Szent-Györgyi</i>
+  <i>Built with 💛 in Koronadal, South Cotabato 🇵🇭 · <a href="http://nasa-ph.com/">NASA PH</a></i>
+</p>
+
+<!-- 🌊 Animated Wave Footer -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:E8A33D,50:7FB8C9,100:1B2F4B&height=120&section=footer" width="100%" />
 </p>
