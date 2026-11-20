@@ -184,14 +184,19 @@ const john = {
 
 ## 🎓 Education & Certifications
 
-- 🎓 **B.S. Information Technology** — STI College Koronadal *(2021 – 2025)*
-- 🏫 **Senior High School (HUMSS)** — Koronadal National Comprehensive High School *(2018 – 2021)*
-- 🛡️ **Pre Security Certificate** — TryHackMe *(Jun 2026)* · [Credential](https://tryhackme.com/certificate/THM-YJQLKQYGIR)
-- 🖥️ **Computer Systems Servicing NC II** — TESDA *(Dec 2025)*
+<p align="center">
+  <img src="./assets/education.svg" width="100%" alt="Timeline: Senior High School HUMSS (2018–2021), B.S. Information Technology at STI College Koronadal (2021–2025), Computer Systems Servicing NC II from TESDA (Dec 2025), Pre Security Certificate from TryHackMe (Jun 2026)" />
+</p>
+
+<p align="center"><sub>🛡️ <a href="https://tryhackme.com/certificate/THM-YJQLKQYGIR">Verify the TryHackMe credential</a></sub></p>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 ## 📈 GitHub Insights
+
+<p align="center">
+  <img src="./assets/insights.svg" width="100%" alt="Always shipping: live stats from the GitHub API" />
+</p>
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Laden8210&show_icons=true&count_private=true&bg_color=1B2F4B&title_color=E8A33D&icon_color=7FB8C9&text_color=FFFFFF&hide_border=true" height="165"/>
@@ -234,26 +239,22 @@ const john = {
 
 ## 🧠 My Workflow
 
-```mermaid
-graph TD;
-    A[Brainstorm 🧠] --> B[Design 🎨]
-    B --> C[Develop 💻]
-    C --> D[Test 🧪]
-    D --> E[Deploy via CI/CD 🚀]
-    E --> F[Monitor 🔍]
-    F --> A
-```
+<p align="center">
+  <img src="./assets/workflow.svg" width="90%" alt="Workflow loop: Brainstorm, Design, Develop, Test, Deploy (CI/CD), Monitor, and back to Brainstorm" />
+</p>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 ## 🌍 Connect With Me
 
 <p align="center">
-  <a href="http://nasa-ph.com/"><img src="https://img.shields.io/badge/Website-nasa--ph.com-1B2F4B?style=for-the-badge&logo=googlechrome&logoColor=white" /></a>
-  <a href="mailto:domingo.laden@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-  <a href="https://www.linkedin.com/in/nasa-ph/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="https://www.facebook.com/profile.php?id=61578262636205"><img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" /></a>
-  <a href="https://github.com/Laden8210"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
+  <a href="http://nasa-ph.com/"><img src="./assets/connect/website.svg" width="32%" alt="Website: nasa-ph.com" /></a>
+  <a href="mailto:domingo.laden@gmail.com"><img src="./assets/connect/gmail.svg" width="32%" alt="Email: domingo.laden@gmail.com" /></a>
+  <a href="https://www.linkedin.com/in/nasa-ph/"><img src="./assets/connect/linkedin.svg" width="32%" alt="LinkedIn: /in/nasa-ph" /></a>
+</p>
+<p align="center">
+  <a href="https://www.facebook.com/profile.php?id=61578262636205"><img src="./assets/connect/facebook.svg" width="32%" alt="Facebook: NASA PH" /></a>
+  <a href="https://github.com/Laden8210"><img src="./assets/connect/github.svg" width="32%" alt="GitHub: @Laden8210" /></a>
 </p>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">

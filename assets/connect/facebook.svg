@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="260" height="74" viewBox="0 0 260 74" font-family="'Segoe UI', Helvetica, Arial, sans-serif">
+<defs><filter id="gl" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter><linearGradient id="bgb" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0E2550"/><stop offset="1" stop-color="#080F1C"/></linearGradient><linearGradient id="sh" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset="0.5" stop-color="#fff" stop-opacity="0.18"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient><linearGradient id="bd" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="260" y2="0"><stop offset="0" stop-color="#5AA0FF" stop-opacity="0.25"/><stop offset="0.5" stop-color="#5AA0FF"/><stop offset="1" stop-color="#5AA0FF" stop-opacity="0.25"/><animateTransform attributeName="gradientTransform" type="translate" values="-260 0;260 0" dur="3s" begin="1.5s" repeatCount="indefinite"/></linearGradient><clipPath id="cl"><rect x="3" y="3" width="254" height="68" rx="34.0"/></clipPath></defs>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.6s" begin="0.55s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="0 10" to="0 0" dur="0.6s" begin="0.55s" fill="freeze"/>
+<rect x="3" y="3" width="254" height="68" rx="34.0" fill="url(#bgb)"/>
+<rect x="3" y="3" width="254" height="68" rx="34.0" fill="none" stroke="url(#bd)" stroke-width="2"/>
+<g clip-path="url(#cl)"><rect x="-120" y="0" width="90" height="74" fill="url(#sh)" transform="skewX(-20)"><animate attributeName="x" values="-120;360;360" keyTimes="0;0.4;1" dur="4s" begin="2.6s" repeatCount="indefinite"/></rect></g>
+<circle cx="38" cy="37.0" r="20" fill="none" stroke="#5AA0FF"><animate attributeName="r" values="20;30" dur="2s" begin="1.2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.8;0" dur="2s" begin="1.2s" repeatCount="indefinite"/></circle>
+<circle cx="38" cy="37.0" r="20" fill="#5AA0FF" fill-opacity="0.15" stroke="#5AA0FF" stroke-width="2"/>
+<text x="38" y="44.0" text-anchor="middle" font-size="20" font-weight="900" fill="#5AA0FF">f</text>
+<text x="70" y="34.0" font-size="16" font-weight="800" fill="#FFFFFF">Facebook</text>
+<text x="70" y="53.0" font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="12" fill="#5AA0FF">NASA PH</text>
+<text x="236" y="43.0" text-anchor="end" font-size="16" font-weight="800" fill="#5AA0FF">→<animate attributeName="x" values="234;240;234" dur="1.2s" repeatCount="indefinite"/></text>
+</g></svg>
