@@ -29,12 +29,16 @@ jobs:
           USERNAME: ${{ github.repository_owner }}
 
       - name: Collect 3D output
-        run: mkdir -p dist/3d && cp profile-3d-contrib/*.svg dist/3d/
+        run: |
+          mkdir -p out/3d
+          cp dist/*.svg out/
+          cp profile-3d-contrib/*.svg out/3d/
+          ls -R out
 
       - name: Publish to output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
-          build_dir: dist
+          build_dir: out
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

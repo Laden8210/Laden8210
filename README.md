@@ -220,6 +220,14 @@ const john = {
 
 <p align="center"><i>Breaking things (with permission) so they can be built stronger. 🔐</i></p>
 
+<details open>
+<summary><b>😎 Bonus: "Accessing the dark web with prompt engineering"</b> (a parody, nothing is actually hacked)</summary>
+<br/>
+<p align="center">
+  <img src="./assets/darkweb.svg" width="100%" alt="Parody: glitch DARK WEB banner, password cracking, FBI trace race, and the punchline: you enabled dark mode" />
+</p>
+</details>
+
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 ## 🎓 Education & Certifications
