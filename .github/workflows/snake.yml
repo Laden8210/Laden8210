@@ -14,6 +14,12 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
+      - name: Pac-Man contribution graph (runs first; the snake step leaves dist/ owned by root)
+        continue-on-error: true
+        uses: abozanona/pacman-contribution-graph@main
+        with:
+          github_user_name: ${{ github.repository_owner }}
+
       - name: Contribution snake
         uses: Platane/snk@v3
         with:
@@ -21,12 +27,6 @@ jobs:
           outputs: |
             dist/github-snake.svg?color_snake=#E8A33D&color_dots=#ebedf0,#c6e2ea,#7FB8C9,#3f6f8a,#1B2F4B
             dist/github-snake-dark.svg?palette=github-dark&color_snake=#E8A33D&color_dots=#161b22,#1B2F4B,#3f6f8a,#7FB8C9,#c6e2ea
-
-      - name: Pac-Man contribution graph
-        continue-on-error: true
-        uses: abozanona/pacman-contribution-graph@main
-        with:
-          github_user_name: ${{ github.repository_owner }}
 
       - uses: actions/checkout@v4
         with:
