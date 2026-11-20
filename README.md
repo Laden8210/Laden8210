@@ -285,13 +285,13 @@ We build end-to-end products across **web, mobile, cloud, AI, security and IoT**
 <p align="center"><b>Your turn — you are ❌.</b> Click any empty square, then press <i>Create</i> on the issue page.</p>
 
 <p align="center">
-  <a href="https://github.com/Laden8210/Laden8210/issues/new?title=ttt%7Cmove%7C0&body=Just+press+%22Create%22+%E2%80%94+no+need+to+write+anything.+The+bot+answers+in+about+a+minute."><img src="./assets/ttt/empty.svg" width="86" alt="play square 1" /></a>
+  <img src="./assets/ttt/x.svg" width="86" alt="X" />
   <a href="https://github.com/Laden8210/Laden8210/issues/new?title=ttt%7Cmove%7C1&body=Just+press+%22Create%22+%E2%80%94+no+need+to+write+anything.+The+bot+answers+in+about+a+minute."><img src="./assets/ttt/empty.svg" width="86" alt="play square 2" /></a>
   <a href="https://github.com/Laden8210/Laden8210/issues/new?title=ttt%7Cmove%7C2&body=Just+press+%22Create%22+%E2%80%94+no+need+to+write+anything.+The+bot+answers+in+about+a+minute."><img src="./assets/ttt/empty.svg" width="86" alt="play square 3" /></a>
 </p>
 <p align="center">
   <a href="https://github.com/Laden8210/Laden8210/issues/new?title=ttt%7Cmove%7C3&body=Just+press+%22Create%22+%E2%80%94+no+need+to+write+anything.+The+bot+answers+in+about+a+minute."><img src="./assets/ttt/empty.svg" width="86" alt="play square 4" /></a>
-  <a href="https://github.com/Laden8210/Laden8210/issues/new?title=ttt%7Cmove%7C4&body=Just+press+%22Create%22+%E2%80%94+no+need+to+write+anything.+The+bot+answers+in+about+a+minute."><img src="./assets/ttt/empty.svg" width="86" alt="play square 5" /></a>
+  <img src="./assets/ttt/o.svg" width="86" alt="O" />
   <a href="https://github.com/Laden8210/Laden8210/issues/new?title=ttt%7Cmove%7C5&body=Just+press+%22Create%22+%E2%80%94+no+need+to+write+anything.+The+bot+answers+in+about+a+minute."><img src="./assets/ttt/empty.svg" width="86" alt="play square 6" /></a>
 </p>
 <p align="center">
@@ -300,7 +300,7 @@ We build end-to-end products across **web, mobile, cloud, AI, security and IoT**
   <a href="https://github.com/Laden8210/Laden8210/issues/new?title=ttt%7Cmove%7C8&body=Just+press+%22Create%22+%E2%80%94+no+need+to+write+anything.+The+bot+answers+in+about+a+minute."><img src="./assets/ttt/empty.svg" width="86" alt="play square 9" /></a>
 </p>
 
-<p align="center"><sub>Scoreboard · visitors <b>0</b> · bot <b>0</b> · draws <b>0</b><br/>Latest players: _be the first!_</sub></p>
+<p align="center"><sub>Scoreboard · visitors <b>0</b> · bot <b>0</b> · draws <b>0</b><br/>Latest players: [@Laden8210](https://github.com/Laden8210)</sub></p>
 <!--TTT:END-->
 
 <p align="center"><sub>Each move opens a GitHub issue; a GitHub Action plays the bot's reply and updates this board.</sub></p>

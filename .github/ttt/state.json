@@ -1,0 +1,15 @@
+{
+ "board": "X   O    ",
+ "status": "playing",
+ "stats": {
+  "you": 0,
+  "bot": 0,
+  "draw": 0
+ },
+ "moves": [
+  {
+   "user": "Laden8210",
+   "cell": 0
+  }
+ ]
+}
