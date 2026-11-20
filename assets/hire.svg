@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="210" viewBox="0 0 900 210" font-family="'Segoe UI', Helvetica, Arial, sans-serif">
+<defs><filter id="gl" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1F3757"/><stop offset="1" stop-color="#080F1C"/></linearGradient>
+<linearGradient id="bd" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="900" y2="0"><stop offset="0" stop-color="#7FB8C9" stop-opacity="0.2"/><stop offset="0.5" stop-color="#E8A33D"/><stop offset="1" stop-color="#7FB8C9" stop-opacity="0.2"/>
+<animateTransform attributeName="gradientTransform" type="translate" values="-900 0;900 0" dur="5s" repeatCount="indefinite"/></linearGradient>
+<radialGradient id="orb"><stop offset="0" stop-color="#E8A33D" stop-opacity="0.22"/><stop offset="1" stop-color="#E8A33D" stop-opacity="0"/></radialGradient>
+<clipPath id="cp"><rect x="2" y="2" width="896" height="206" rx="20"/></clipPath>
+</defs>
+<g clip-path="url(#cp)"><rect width="900" height="210" fill="url(#bg)"/>
+<circle cx="760" cy="105" r="170" fill="url(#orb)"><animate attributeName="r" values="150;185;150" dur="6s" repeatCount="indefinite"/></circle></g>
+<rect x="2" y="2" width="896" height="206" rx="20" fill="none" stroke="url(#bd)" stroke-width="2"/>
+<circle cx="44" cy="44" r="6" fill="#3FB950"><animate attributeName="opacity" values="1;0.35;1" dur="1.4s" repeatCount="indefinite"/></circle>
+<circle cx="44" cy="44" r="6" fill="none" stroke="#3FB950"><animate attributeName="r" values="6;15" dur="1.4s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.8;0" dur="1.4s" repeatCount="indefinite"/></circle>
+<text x="60" y="49" font-size="12" font-weight="800" letter-spacing="2.5" fill="#3FB950">AVAILABLE FOR WORK</text>
+<text x="36" y="96" font-size="30" font-weight="800" fill="#FFFFFF">Let's build something together.</text>
+<text x="36" y="124" font-size="15" fill="#C9D6E3">Freelance &amp; contract projects · remote from Koronadal, Philippines 🌏</text>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.4s" fill="freeze"/><rect x="36" y="146" width="170.4" height="30" rx="15" fill="#1B2F4B" stroke="#7FB8C9" stroke-opacity="0.6"/><text x="121.2" y="166" text-anchor="middle" font-size="13" font-weight="600" fill="#7FB8C9">Full-stack web apps</text></g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.6s" fill="freeze"/><rect x="216.4" y="146" width="109.6" height="30" rx="15" fill="#1B2F4B" stroke="#7FB8C9" stroke-opacity="0.6"/><text x="271.2" y="166" text-anchor="middle" font-size="13" font-weight="600" fill="#7FB8C9">Mobile apps</text></g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.8s" fill="freeze"/><rect x="336.0" y="146" width="132.39999999999998" height="30" rx="15" fill="#1B2F4B" stroke="#7FB8C9" stroke-opacity="0.6"/><text x="402.2" y="166" text-anchor="middle" font-size="13" font-weight="600" fill="#7FB8C9">Cloud &amp; DevOps</text></g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="1.0s" fill="freeze"/><rect x="478.4" y="146" width="132.39999999999998" height="30" rx="15" fill="#1B2F4B" stroke="#7FB8C9" stroke-opacity="0.6"/><text x="544.5999999999999" y="166" text-anchor="middle" font-size="13" font-weight="600" fill="#7FB8C9">AI · RAG · MCP</text></g>
+<g filter="url(#gl)"><rect x="664" y="76" width="200" height="56" rx="28" fill="#E8A33D"/></g>
+<rect x="664" y="76" width="200" height="56" rx="28" fill="none" stroke="#E8A33D" stroke-width="2"><animate attributeName="stroke-width" values="2;10;2" dur="2s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values="0.8;0;0.8" dur="2s" repeatCount="indefinite"/></rect>
+<text x="756.0" y="111" text-anchor="middle" font-size="17" font-weight="800" fill="#1B2F4B">Start a project</text>
+<text x="834" y="111" font-size="18" font-weight="800" fill="#1B2F4B">→<animate attributeName="x" values="832;839;832" dur="1.2s" repeatCount="indefinite"/></text>
+<text x="764.0" y="158" text-anchor="middle" font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="12" fill="#7FB8C9">nasa-ph.com</text>
+</svg>

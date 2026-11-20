@@ -22,7 +22,25 @@ jobs:
             dist/github-snake.svg?color_snake=#E8A33D&color_dots=#ebedf0,#c6e2ea,#7FB8C9,#3f6f8a,#1B2F4B
             dist/github-snake-dark.svg?palette=github-dark&color_snake=#E8A33D&color_dots=#161b22,#1B2F4B,#3f6f8a,#7FB8C9,#c6e2ea
 
-      - name: 3D contribution graph
+      - name: Pac-Man contribution graph
+        continue-on-error: true
+        uses: abozanona/pacman-contribution-graph@main
+        with:
+          github_user_name: ${{ github.repository_owner }}
+
+      - uses: actions/checkout@v4
+        with:
+          path: repo
+
+      - name: 3D contribution graph (brand palette)
+        continue-on-error: true
+        uses: yoshi389111/github-profile-3d-contrib@latest
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+          SETTING_JSON: repo/.github/profile-3d.json
+
+      - name: 3D contribution graph (standard set)
         uses: yoshi389111/github-profile-3d-contrib@latest
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -31,7 +49,8 @@ jobs:
       - name: Collect 3D output
         run: |
           mkdir -p out/3d
-          cp dist/*.svg out/
+          cp dist/*.svg out/ 2>/dev/null || true
+          find . -maxdepth 3 -name 'pacman*.svg' -not -path './out/*' -exec cp {} out/ \;
           cp profile-3d-contrib/*.svg out/3d/
           ls -R out
 

@@ -1,0 +1,45 @@
+name: Tic-tac-toe
+
+on:
+  issues:
+    types: [opened]
+
+concurrency:
+  group: tictactoe
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  move:
+    if: startsWith(github.event.issue.title, 'ttt|')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Play the move
+        env:
+          TITLE: ${{ github.event.issue.title }}
+          PLAYER: ${{ github.event.issue.user.login }}
+        run: python .github/scripts/profile.py ttt
+
+      - name: Commit board
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md .github/ttt/state.json
+          git diff --cached --quiet && exit 0
+          git commit -m "Tic-tac-toe move by @${PLAYER}"
+          for i in 1 2 3; do git pull --rebase && git push && break; sleep 5; done
+        env:
+          PLAYER: ${{ github.event.issue.user.login }}
+
+      - name: Reply and close the issue
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NUMBER: ${{ github.event.issue.number }}
+        run: |
+          gh issue comment "$NUMBER" --repo "$GITHUB_REPOSITORY" --body-file .github/ttt/comment.md
+          gh issue close "$NUMBER" --repo "$GITHUB_REPOSITORY"

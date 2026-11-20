@@ -21,11 +21,13 @@
   <img src="https://komarev.com/ghpvc/?username=Laden8210&label=Profile%20views&color=E8A33D&style=flat-square" />
 </p>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+<p align="center">
+  <img src="./assets/stats.svg" width="100%" alt="20+ projects shipped, contributions in the last year, years shipping, 2 certifications" />
+</p>
+
+<img src="./assets/divider.svg" width="100%" alt="" />
 
 ## <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="32"> About Me
-
-<img src="./assets/nasa-ph-logo.jpg" align="right" width="280" alt="NASA PH logo" />
 
 Hi! I'm **John Michael Domingo**, a **Full Stack & Mobile Developer** with **[NASA PH](http://nasa-ph.com/)**, a Filipino developers' collective based in Koronadal, South Cotabato (est. 2024).
 
@@ -36,8 +38,6 @@ I architect end-to-end applications across **web, iOS, and Android**, specializi
 - 📦 Shipped **20+ projects** as a freelancer since 2023
 - 🔐 Exploring security: pentesting, OWASP Top 10, network security
 - 🤖 Into hackathons, robotics & IoT prototypes, and autonomous AI agents
-
-<br clear="right"/>
 
 <details>
 <summary><b>⚡ Fun facts (click to expand)</b></summary>
@@ -64,7 +64,11 @@ const john = {
   <img src="./assets/terminal.svg" width="85%" alt="Animated terminal: whoami, work, stack, deploy" />
 </p>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+<p align="center">
+  <a href="http://nasa-ph.com/"><img src="./assets/hire.svg" width="100%" alt="Available for work: freelance and contract projects. Start a project at nasa-ph.com" /></a>
+</p>
+
+<img src="./assets/divider.svg" width="100%" alt="" />
 
 ## 💼 Experience
 
@@ -87,7 +91,7 @@ const john = {
 - Containerized applications with Docker
 - Integrated GCP Vertex AI and Supabase into real-time web apps
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+<img src="./assets/divider.svg" width="100%" alt="" />
 
 ## 🚀 Tech Stack
 
@@ -103,7 +107,7 @@ const john = {
   <img src="./assets/techstack.svg" width="100%" alt="Tech stack: Mobile (React Native, iOS, Android, Java); Frontend (Next.js, React, TypeScript, Tailwind CSS); Backend (Nest.js, Laravel, Express.js, FastAPI, Prisma, PHP, Python); DevOps & Cloud (Docker, Terraform, GitHub Actions, GCP, AWS, Vertex AI); AI & Data (RAG, MCP, pgvector, Vector DBs, LLM Apps); Databases & BaaS (PostgreSQL, MySQL, MSSQL, SQLite, Supabase, Firebase); Security & IoT (Pentesting, OWASP Top 10, Linux, Arduino, Raspberry Pi)" />
 </p>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+<img src="./assets/divider.svg" width="100%" alt="" />
 
 ## 🧩 What I Do
 
@@ -111,7 +115,7 @@ const john = {
   <img src="./assets/services.svg" width="100%" alt="Services: full-stack web & mobile, cross-platform mobile, frontend interfaces, backend APIs, cloud & DevOps, AI & data solutions, database design, security, robotics & IoT" />
 </p>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+<img src="./assets/divider.svg" width="100%" alt="" />
 
 ## 🌟 Featured Projects
 
@@ -155,7 +159,7 @@ const john = {
   </sub>
 </p>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+<img src="./assets/divider.svg" width="100%" alt="" />
 
 ## 🕶️ Hacker Mode
 
@@ -166,8 +170,8 @@ const john = {
 <p align="center">
   <img src="https://img.shields.io/badge/TryHackMe-Pre_Security-212C42?style=for-the-badge&logo=tryhackme&logoColor=white" />
   <img src="https://img.shields.io/badge/OWASP-Top_10-000000?style=for-the-badge&logo=owasp&logoColor=white" />
-  <img src="https://img.shields.io/badge/Kali-Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white" />
-  <img src="https://img.shields.io/badge/Ethical-Hacking-39FF14?style=for-the-badge&logo=hackthebox&logoColor=black" />
+  <img src="https://img.shields.io/badge/Kali-Linux-1B2F4B?style=for-the-badge&logo=kalilinux&logoColor=white" />
+  <img src="https://img.shields.io/badge/Ethical-Hacking-1B2F4B?style=for-the-badge&logo=hackthebox&logoColor=E8A33D" />
 </p>
 
 <p align="center"><i>Breaking things (with permission) so they can be built stronger. 🔐</i></p>
@@ -180,7 +184,7 @@ const john = {
 </p>
 </details>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+<img src="./assets/divider.svg" width="100%" alt="" />
 
 ## 🎓 Education & Certifications
 
@@ -190,7 +194,7 @@ const john = {
 
 <p align="center"><sub>🛡️ <a href="https://tryhackme.com/certificate/THM-YJQLKQYGIR">Verify the TryHackMe credential</a></sub></p>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+<img src="./assets/divider.svg" width="100%" alt="" />
 
 ## 📈 GitHub Insights
 
@@ -211,18 +215,10 @@ const john = {
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Laden8210&bg_color=1B2F4B&color=FFFFFF&line=E8A33D&point=7FB8C9&area=true&area_color=7FB8C9&hide_border=true&custom_title=Contribution%20Activity" width="100%"/>
 </p>
 
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Laden8210&theme=onedark&no-frame=true&no-bg=true&margin-w=6&row=1&column=7" />
-</p>
-
 ### 🏙️ 3D Contribution City
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Laden8210/Laden8210/output/3d/profile-night-rainbow.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Laden8210/Laden8210/output/3d/profile-season-animate.svg" />
-    <img alt="3D contribution graph" src="https://raw.githubusercontent.com/Laden8210/Laden8210/output/3d/profile-night-rainbow.svg" width="100%" />
-  </picture>
+  <img src="https://raw.githubusercontent.com/Laden8210/Laden8210/output/3d/profile-brand.svg" width="100%" alt="3D contribution graph" />
 </p>
 
 ### 🐍 Contribution Snake
@@ -235,7 +231,26 @@ const john = {
   </picture>
 </p>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+### 👾 Pac-Man Eats My Contributions
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Laden8210/Laden8210/output/pacman-contribution-graph-dark.svg" />
+    <img alt="Pac-Man eating the contribution graph" src="https://raw.githubusercontent.com/Laden8210/Laden8210/output/pacman-contribution-graph.svg" />
+  </picture>
+</p>
+
+### ⚡ Recent Activity
+
+<!--ACTIVITY:START-->
+- 📊 **38 contributions in the last 30 days**: **6** public commits · **32** in private client repos 🔒
+- 🔨 6 commits to [Laden8210](https://github.com/Laden8210/Laden8210)
+- 🕒 Updated [Laden8210](https://github.com/Laden8210/Laden8210) · <sub>today</sub>
+<!--ACTIVITY:END-->
+
+<sub>Updated automatically every 6 hours.</sub>
+
+<img src="./assets/divider.svg" width="100%" alt="" />
 
 ## 🧠 My Workflow
 
@@ -243,7 +258,54 @@ const john = {
   <img src="./assets/workflow.svg" width="90%" alt="Workflow loop: Brainstorm, Design, Develop, Test, Deploy (CI/CD), Monitor, and back to Brainstorm" />
 </p>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+<img src="./assets/divider.svg" width="100%" alt="" />
+
+## 🛰️ NASA PH
+
+<img src="./assets/nasa-ph-logo.jpg" align="right" width="240" alt="NASA PH logo" />
+
+**NASA PH** is a Filipino developers' collective based in Koronadal, South Cotabato, founded in 2024.
+
+We build end-to-end products across **web, mobile, cloud, AI, security and IoT**, from first idea to production.
+
+- 🌐 Full-stack web & mobile apps
+- ☁️ Cloud infrastructure & DevOps
+- 🧠 AI & data solutions (RAG, vector search, LLM apps)
+- 🔐 Security & 🤖 robotics / IoT prototypes
+
+👉 **[Visit nasa-ph.com](http://nasa-ph.com/)** · **[Follow on Facebook](https://www.facebook.com/profile.php?id=61578262636205)**
+
+<br clear="right"/>
+
+<img src="./assets/divider.svg" width="100%" alt="" />
+
+## 🎮 Play Tic-Tac-Toe with me
+
+<!--TTT:START-->
+<p align="center"><b>Your turn — you are ❌.</b> Click any empty square, then press <i>Create</i> on the issue page.</p>
+
+<p align="center">
+  <a href="https://github.com/Laden8210/Laden8210/issues/new?title=ttt%7Cmove%7C0&body=Just+press+%22Create%22+%E2%80%94+no+need+to+write+anything.+The+bot+answers+in+about+a+minute."><img src="./assets/ttt/empty.svg" width="86" alt="play square 1" /></a>
+  <a href="https://github.com/Laden8210/Laden8210/issues/new?title=ttt%7Cmove%7C1&body=Just+press+%22Create%22+%E2%80%94+no+need+to+write+anything.+The+bot+answers+in+about+a+minute."><img src="./assets/ttt/empty.svg" width="86" alt="play square 2" /></a>
+  <a href="https://github.com/Laden8210/Laden8210/issues/new?title=ttt%7Cmove%7C2&body=Just+press+%22Create%22+%E2%80%94+no+need+to+write+anything.+The+bot+answers+in+about+a+minute."><img src="./assets/ttt/empty.svg" width="86" alt="play square 3" /></a>
+</p>
+<p align="center">
+  <a href="https://github.com/Laden8210/Laden8210/issues/new?title=ttt%7Cmove%7C3&body=Just+press+%22Create%22+%E2%80%94+no+need+to+write+anything.+The+bot+answers+in+about+a+minute."><img src="./assets/ttt/empty.svg" width="86" alt="play square 4" /></a>
+  <a href="https://github.com/Laden8210/Laden8210/issues/new?title=ttt%7Cmove%7C4&body=Just+press+%22Create%22+%E2%80%94+no+need+to+write+anything.+The+bot+answers+in+about+a+minute."><img src="./assets/ttt/empty.svg" width="86" alt="play square 5" /></a>
+  <a href="https://github.com/Laden8210/Laden8210/issues/new?title=ttt%7Cmove%7C5&body=Just+press+%22Create%22+%E2%80%94+no+need+to+write+anything.+The+bot+answers+in+about+a+minute."><img src="./assets/ttt/empty.svg" width="86" alt="play square 6" /></a>
+</p>
+<p align="center">
+  <a href="https://github.com/Laden8210/Laden8210/issues/new?title=ttt%7Cmove%7C6&body=Just+press+%22Create%22+%E2%80%94+no+need+to+write+anything.+The+bot+answers+in+about+a+minute."><img src="./assets/ttt/empty.svg" width="86" alt="play square 7" /></a>
+  <a href="https://github.com/Laden8210/Laden8210/issues/new?title=ttt%7Cmove%7C7&body=Just+press+%22Create%22+%E2%80%94+no+need+to+write+anything.+The+bot+answers+in+about+a+minute."><img src="./assets/ttt/empty.svg" width="86" alt="play square 8" /></a>
+  <a href="https://github.com/Laden8210/Laden8210/issues/new?title=ttt%7Cmove%7C8&body=Just+press+%22Create%22+%E2%80%94+no+need+to+write+anything.+The+bot+answers+in+about+a+minute."><img src="./assets/ttt/empty.svg" width="86" alt="play square 9" /></a>
+</p>
+
+<p align="center"><sub>Scoreboard · visitors <b>0</b> · bot <b>0</b> · draws <b>0</b><br/>Latest players: _be the first!_</sub></p>
+<!--TTT:END-->
+
+<p align="center"><sub>Each move opens a GitHub issue; a GitHub Action plays the bot's reply and updates this board.</sub></p>
+
+<img src="./assets/divider.svg" width="100%" alt="" />
 
 ## 🌍 Connect With Me
 
@@ -257,7 +319,7 @@ const john = {
   <a href="https://github.com/Laden8210"><img src="./assets/connect/github.svg" width="32%" alt="GitHub: @Laden8210" /></a>
 </p>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+<img src="./assets/divider.svg" width="100%" alt="" />
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&pause=1500&color=E8A33D&center=true&vCenter=true&width=700&lines=%22Innovation+is+seeing+what+everybody+has+seen;and+thinking+what+nobody+has+thought.%22;%E2%80%94+Dr.+Albert+Szent-Gy%C3%B6rgyi" alt="Quote" />
