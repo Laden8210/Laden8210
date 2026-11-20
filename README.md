@@ -61,7 +61,7 @@ const john = {
 ### 💻 `> whoami`
 
 <p align="center">
-  <img src="./assets/terminal.svg" width="85%" alt="Animated terminal: whoami, work, stack, deploy" />
+  <img src="./assets/terminal.svg" width="760" alt="Animated terminal: whoami, work, stack, deploy" />
 </p>
 
 <p align="center">
@@ -81,7 +81,7 @@ const john = {
 - Architected **Hivemind**, a unified AI platform with multi-tenant infrastructure and prompt modules
 
 <p align="center">
-  <img src="./assets/hivemind.svg" width="85%" alt="Hivemind: tenants flow through the AI hub into RAG, vector DB, MCP tools and LLMs" />
+  <img src="./assets/hivemind.svg" width="760" alt="Hivemind: tenants flow through the AI hub into RAG, vector DB, MCP tools and LLMs" />
 </p>
 
 **Freelance Full Stack & Mobile Developer** · *2023 – 2025*
@@ -122,28 +122,28 @@ const john = {
 <p align="center"><i>Click any card to open its source.</i></p>
 
 <p align="center">
-  <a href="https://github.com/Laden8210/sakariv-v2"><img src="./assets/projects/sakari.svg" width="49%" alt="Sakari Management" /></a>
-  <a href="https://github.com/Laden8210/pdl-is"><img src="./assets/projects/pdl-is.svg" width="49%" alt="PDL Information System" /></a>
+  <a href="https://github.com/Laden8210/sakariv-v2"><img src="./assets/projects/sakari.svg" width="410" alt="Sakari Management" /></a>
+  <a href="https://github.com/Laden8210/pdl-is"><img src="./assets/projects/pdl-is.svg" width="410" alt="PDL Information System" /></a>
 </p>
 <p align="center">
-  <a href="https://github.com/Laden8210/weather-forecasting"><img src="./assets/projects/weather.svg" width="49%" alt="Weather Forecasting" /></a>
-  <a href="https://github.com/Laden8210/nasa-social"><img src="./assets/projects/nasa-social.svg" width="49%" alt="NASA Social" /></a>
+  <a href="https://github.com/Laden8210/weather-forecasting"><img src="./assets/projects/weather.svg" width="410" alt="Weather Forecasting" /></a>
+  <a href="https://github.com/Laden8210/nasa-social"><img src="./assets/projects/nasa-social.svg" width="410" alt="NASA Social" /></a>
 </p>
 <p align="center">
-  <a href="https://github.com/Laden8210/fairmont"><img src="./assets/projects/fairmont.svg" width="49%" alt="Fairmont" /></a>
-  <a href="https://github.com/Laden8210/dropshipping"><img src="./assets/projects/dropshipping.svg" width="49%" alt="Dropshipping Ecosystem" /></a>
+  <a href="https://github.com/Laden8210/fairmont"><img src="./assets/projects/fairmont.svg" width="410" alt="Fairmont" /></a>
+  <a href="https://github.com/Laden8210/dropshipping"><img src="./assets/projects/dropshipping.svg" width="410" alt="Dropshipping Ecosystem" /></a>
 </p>
 <p align="center">
-  <a href="https://github.com/Laden8210/bmove-2"><img src="./assets/projects/bmove.svg" width="49%" alt="BMove" /></a>
-  <a href="https://github.com/Laden8210/ybl-backend"><img src="./assets/projects/ybl.svg" width="49%" alt="YBL Platform" /></a>
+  <a href="https://github.com/Laden8210/bmove-2"><img src="./assets/projects/bmove.svg" width="410" alt="BMove" /></a>
+  <a href="https://github.com/Laden8210/ybl-backend"><img src="./assets/projects/ybl.svg" width="410" alt="YBL Platform" /></a>
 </p>
 <p align="center">
-  <a href="https://github.com/Laden8210/yolo-app"><img src="./assets/projects/cv.svg" width="49%" alt="Computer Vision Apps" /></a>
-  <a href="https://github.com/Laden8210/Thesis-RFID-Borrowing-IMS"><img src="./assets/projects/rfid.svg" width="49%" alt="RFID Borrowing IMS" /></a>
+  <a href="https://github.com/Laden8210/yolo-app"><img src="./assets/projects/cv.svg" width="410" alt="Computer Vision Apps" /></a>
+  <a href="https://github.com/Laden8210/Thesis-RFID-Borrowing-IMS"><img src="./assets/projects/rfid.svg" width="410" alt="RFID Borrowing IMS" /></a>
 </p>
 <p align="center">
-  <a href="https://github.com/Laden8210/POS-Project"><img src="./assets/projects/pos.svg" width="49%" alt="POS Project" /></a>
-  <a href="https://github.com/Laden8210/EPet"><img src="./assets/projects/epet.svg" width="49%" alt="EPet" /></a>
+  <a href="https://github.com/Laden8210/POS-Project"><img src="./assets/projects/pos.svg" width="410" alt="POS Project" /></a>
+  <a href="https://github.com/Laden8210/EPet"><img src="./assets/projects/epet.svg" width="410" alt="EPet" /></a>
 </p>
 
 <p align="center">
@@ -255,7 +255,7 @@ const john = {
 ## 🧠 My Workflow
 
 <p align="center">
-  <img src="./assets/workflow.svg" width="90%" alt="Workflow loop: Brainstorm, Design, Develop, Test, Deploy (CI/CD), Monitor, and back to Brainstorm" />
+  <img src="./assets/workflow.svg" width="780" alt="Workflow loop: Brainstorm, Design, Develop, Test, Deploy (CI/CD), Monitor, and back to Brainstorm" />
 </p>
 
 <img src="./assets/divider.svg" width="100%" alt="" />
@@ -310,13 +310,13 @@ We build end-to-end products across **web, mobile, cloud, AI, security and IoT**
 ## 🌍 Connect With Me
 
 <p align="center">
-  <a href="http://nasa-ph.com/"><img src="./assets/connect/website.svg" width="32%" alt="Website: nasa-ph.com" /></a>
-  <a href="mailto:domingo.laden@gmail.com"><img src="./assets/connect/gmail.svg" width="32%" alt="Email: domingo.laden@gmail.com" /></a>
-  <a href="https://www.linkedin.com/in/nasa-ph/"><img src="./assets/connect/linkedin.svg" width="32%" alt="LinkedIn: /in/nasa-ph" /></a>
+  <a href="http://nasa-ph.com/"><img src="./assets/connect/website.svg" width="260" alt="Website: nasa-ph.com" /></a>
+  <a href="mailto:domingo.laden@gmail.com"><img src="./assets/connect/gmail.svg" width="260" alt="Email: domingo.laden@gmail.com" /></a>
+  <a href="https://www.linkedin.com/in/nasa-ph/"><img src="./assets/connect/linkedin.svg" width="260" alt="LinkedIn: /in/nasa-ph" /></a>
 </p>
 <p align="center">
-  <a href="https://www.facebook.com/profile.php?id=61578262636205"><img src="./assets/connect/facebook.svg" width="32%" alt="Facebook: NASA PH" /></a>
-  <a href="https://github.com/Laden8210"><img src="./assets/connect/github.svg" width="32%" alt="GitHub: @Laden8210" /></a>
+  <a href="https://www.facebook.com/profile.php?id=61578262636205"><img src="./assets/connect/facebook.svg" width="260" alt="Facebook: NASA PH" /></a>
+  <a href="https://github.com/Laden8210"><img src="./assets/connect/github.svg" width="260" alt="GitHub: @Laden8210" /></a>
 </p>
 
 <img src="./assets/divider.svg" width="100%" alt="" />
