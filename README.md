@@ -243,9 +243,11 @@ const john = {
 ### ⚡ Recent Activity
 
 <!--ACTIVITY:START-->
-- 📊 **39 contributions in the last 30 days**: **7** public commits · **32** in private client repos 🔒
-- 🔨 7 commits to [Laden8210](https://github.com/Laden8210/Laden8210)
-- 🕒 Updated [Laden8210](https://github.com/Laden8210/Laden8210) · <sub>today</sub>
+<p align="center">
+  <img src="./assets/activity.svg" width="100%" alt="30 contributions in the last 30 days: 10 public, 20 in private repos" />
+</p>
+
+<p align="center"><sub>🕒 Recently updated: <a href="https://github.com/Laden8210/Laden8210">Laden8210</a></sub></p>
 <!--ACTIVITY:END-->
 
 <sub>Updated automatically every 6 hours.</sub>
@@ -262,20 +264,11 @@ const john = {
 
 ## 🛰️ NASA PH
 
-<img src="./assets/nasa-ph-logo.jpg" align="right" width="240" alt="NASA PH logo" />
+<p align="center">
+  <a href="http://nasa-ph.com/"><img src="./assets/nasaph.svg" width="100%" alt="NASA PH, a Filipino developers' collective in Koronadal, South Cotabato, est. 2024: full-stack web and mobile apps, cloud and DevOps, AI and data, security and IoT. Visit nasa-ph.com" /></a>
+</p>
 
-**NASA PH** is a Filipino developers' collective based in Koronadal, South Cotabato, founded in 2024.
-
-We build end-to-end products across **web, mobile, cloud, AI, security and IoT**, from first idea to production.
-
-- 🌐 Full-stack web & mobile apps
-- ☁️ Cloud infrastructure & DevOps
-- 🧠 AI & data solutions (RAG, vector search, LLM apps)
-- 🔐 Security & 🤖 robotics / IoT prototypes
-
-👉 **[Visit nasa-ph.com](http://nasa-ph.com/)** · **[Follow on Facebook](https://www.facebook.com/profile.php?id=61578262636205)**
-
-<br clear="right"/>
+<p align="center"><sub>🌐 <a href="http://nasa-ph.com/">nasa-ph.com</a> · 📘 <a href="https://www.facebook.com/profile.php?id=61578262636205">Follow NASA PH on Facebook</a></sub></p>
 
 <img src="./assets/divider.svg" width="100%" alt="" />
 

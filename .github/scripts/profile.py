@@ -94,39 +94,105 @@ def stats():
 
 
 # ------------------------------------------------------------------ activity
+def esc(t):
+    return t.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+
+
 def activity():
-    """30-day summary from the contributions graph (the public events feed is empty
-    for this account), plus the most recently updated public repos."""
-    now = datetime.now(timezone.utc)
-    frm = now.replace(microsecond=0) - __import__("datetime").timedelta(days=30)
+    """Animated 30-day activity panel built from the contributions graph (the public
+    events feed is empty for this account) + text links to recently updated repos."""
+    from datetime import timedelta
+    now = datetime.now(timezone.utc).replace(microsecond=0)
+    frm = now - timedelta(days=29)
     q = graphql(
-        f'{{ user(login: "{USER}") {{ contributionsCollection(from: "{frm.isoformat()}", to: "{now.replace(microsecond=0).isoformat()}") {{'
+        f'{{ user(login: "{USER}") {{ contributionsCollection(from: "{frm.isoformat()}", to: "{now.isoformat()}") {{'
         ' totalCommitContributions totalPullRequestContributions totalPullRequestReviewContributions'
         ' totalIssueContributions restrictedContributionsCount'
-        ' commitContributionsByRepository(maxRepositories: 5) { repository { name url isPrivate } contributions { totalCount } } } } }')
+        ' contributionCalendar { weeks { contributionDays { date contributionCount } } } } } }')
     c = q["user"]["contributionsCollection"]
-    total = (c["totalCommitContributions"] + c["totalPullRequestContributions"] + c["totalPullRequestReviewContributions"]
-             + c["totalIssueContributions"] + c["restrictedContributionsCount"])
-    parts = [f"**{c['totalCommitContributions']}** public commits"]
-    for key, label in (("totalPullRequestContributions", "PRs"), ("totalPullRequestReviewContributions", "reviews"), ("totalIssueContributions", "issues")):
-        if c[key]:
-            parts.append(f"**{c[key]}** {label}")
-    if c["restrictedContributionsCount"]:
-        parts.append(f"**{c['restrictedContributionsCount']}** in private client repos 🔒")
-    lines = [f"📊 **{total} contributions in the last 30 days**: " + " · ".join(parts)]
-    for r in c["commitContributionsByRepository"]:
-        repo = r["repository"]
-        if not repo["isPrivate"]:
-            n = r["contributions"]["totalCount"]
-            lines.append(f"🔨 {n} commit{'s' if n != 1 else ''} to [{repo['name']}]({repo['url']})")
-    for repo in api(f"/users/{USER}/repos?sort=pushed&per_page=3&type=owner"):
-        days = (now - datetime.fromisoformat(repo["pushed_at"].replace("Z", "+00:00"))).days
-        if days > 90:
-            continue
-        ago = "today" if days == 0 else ("yesterday" if days == 1 else f"{days} days ago")
-        lines.append(f"🕒 Updated [{repo['name']}]({repo['html_url']}) · <sub>{ago}</sub>")
-    replace_section("ACTIVITY", "\n".join(f"- {l}" for l in lines))
-    print(f"activity: total={total}")
+    days = [d for w in c["contributionCalendar"]["weeks"] for d in w["contributionDays"]][-30:]
+    total = sum(d["contributionCount"] for d in days)
+    public = (c["totalCommitContributions"] + c["totalPullRequestContributions"]
+              + c["totalPullRequestReviewContributions"] + c["totalIssueContributions"])
+    private = c["restrictedContributionsCount"]
+    best = max(days, key=lambda d: d["contributionCount"]) if days else None
+    active = sum(1 for d in days if d["contributionCount"])
+    repos = []
+    for repo in api(f"/users/{USER}/repos?sort=pushed&per_page=4&type=owner"):
+        ago_d = (now - datetime.fromisoformat(repo["pushed_at"].replace("Z", "+00:00"))).days
+        if ago_d <= 90:
+            ago = "today" if ago_d == 0 else ("yesterday" if ago_d == 1 else f"{ago_d}d ago")
+            repos.append((repo["name"], repo["html_url"], ago))
+
+    W, H = 900, 300
+    glow = ' filter="url(#gl)"'
+    p = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" font-family="{SANS}">',
+         '<defs><radialGradient id="bg" cx="30%" cy="20%" r="90%"><stop offset="0" stop-color="#16294A"/><stop offset="1" stop-color="#080F1C"/></radialGradient>'
+         f'<linearGradient id="bar" x1="0" y1="1" x2="0" y2="0"><stop offset="0" stop-color="{NAVY}"/><stop offset="1" stop-color="{BLUE}"/></linearGradient>'
+         '<filter id="gl" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>',
+         f'<rect width="{W}" height="{H}" rx="16" fill="url(#bg)"/>',
+         '<circle cx="32" cy="34" r="5" fill="#3FB950"><animate attributeName="opacity" values="1;0.3;1" dur="1.4s" repeatCount="indefinite"/></circle>'
+         '<circle cx="32" cy="34" r="5" fill="none" stroke="#3FB950"><animate attributeName="r" values="5;13" dur="1.4s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.8;0" dur="1.4s" repeatCount="indefinite"/></circle>'
+         '<text x="46" y="39" font-size="12" font-weight="800" letter-spacing="2" fill="#3FB950">LIVE · LAST 30 DAYS</text>',
+         f'<text x="{W-24}" y="39" text-anchor="end" font-size="11.5" fill="#8FA6BD">updated {now:%b %d, %Y %H:%M} UTC</text>']
+    # big counter
+    steps = 14
+    for k in range(steps + 1):
+        v = round(total * k / steps)
+        if k == steps:
+            vis = f'values="0;1" keyTimes="0;{k/steps:.3f}"'
+        else:
+            vis = f'values="0;1;0" keyTimes="0;{k/steps:.3f};{(k+1)/steps:.3f}"'
+        p.append(f'<text x="28" y="104" font-size="52" font-weight="800" fill="#FFFFFF" opacity="0"{glow if k == steps else ""}>{v}'
+                 f'<animate attributeName="opacity" {vis} calcMode="discrete" dur="1.6s" begin="0.2s" fill="freeze"/></text>')
+    p.append(f'<text x="30" y="128" font-size="14" font-weight="700" fill="{ORANGE}">contributions</text>')
+    rows = [(f"{public}", "public", BLUE), (f"{private}", "private client work 🔒", ORANGE), (f"{active}/30", "active days", BLUE)]
+    if best and best["contributionCount"]:
+        rows.append((f'{best["contributionCount"]}', f'best day · {datetime.fromisoformat(best["date"]):%b %d}', ORANGE))
+    for i, (n, lbl, col) in enumerate(rows):
+        y = 158 + i * 26
+        p.append(f'<g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="{0.6+i*0.2:.1f}s" fill="freeze"/>'
+                 f'<rect x="28" y="{y-13}" width="5" height="18" rx="2.5" fill="{col}"/>'
+                 f'<text x="42" y="{y+1}" font-size="15" font-weight="800" fill="#FFFFFF">{esc(n)}</text>'
+                 f'<text x="{48 + len(n)*9}" y="{y+1}" font-size="13" fill="#C9D6E3">{esc(lbl)}</text></g>')
+    # bar chart of real daily contributions
+    cx0, cy0, cw, ch = 300, 62, 572, 150
+    mx = max([d["contributionCount"] for d in days] + [1])
+    bw = cw / max(len(days), 1)
+    p.append(f'<line x1="{cx0}" x2="{cx0+cw}" y1="{cy0+ch}" y2="{cy0+ch}" stroke="{BLUE}" stroke-opacity="0.25"/>')
+    for i, d in enumerate(days):
+        n = d["contributionCount"]
+        h = max(3, ch * n / mx) if n else 3
+        x = cx0 + i * bw + bw * 0.18
+        w = bw * 0.64
+        last = i == len(days) - 1
+        fill = ORANGE if last else ("url(#bar)" if n else BLUE)
+        op = 1 if (n or last) else 0.18
+        pulse = '<animate attributeName="opacity" values="1;0.55;1" dur="1.6s" begin="2s" repeatCount="indefinite"/>' if last else ""
+        p.append(f'<rect x="{x:.1f}" y="{cy0+ch}" width="{w:.1f}" height="0" rx="2" fill="{fill}" opacity="{op}"{glow if last else ""}>'
+                 f'<animate attributeName="height" from="0" to="{h:.1f}" dur="0.5s" begin="{0.3+i*0.04:.2f}s" fill="freeze"/>'
+                 f'<animate attributeName="y" from="{cy0+ch}" to="{cy0+ch-h:.1f}" dur="0.5s" begin="{0.3+i*0.04:.2f}s" fill="freeze"/>{pulse}</rect>')
+    if days:
+        p.append(f'<text x="{cx0}" y="{cy0+ch+18}" font-size="11" fill="#8FA6BD">{datetime.fromisoformat(days[0]["date"]):%b %d}</text>'
+                 f'<text x="{cx0+cw}" y="{cy0+ch+18}" text-anchor="end" font-size="11" font-weight="700" fill="{ORANGE}">today</text>')
+    # recent repos
+    x = 300
+    for i, (name, _, ago) in enumerate(repos[:3]):
+        label = f"{name} · {ago}"
+        w = len(label) * 7.2 + 34
+        p.append(f'<g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="{1.6+i*0.2:.1f}s" fill="freeze"/>'
+                 f'<rect x="{x}" y="{H-50}" width="{w:.0f}" height="28" rx="14" fill="{NAVY}" stroke="{BLUE}" stroke-opacity="0.5"/>'
+                 f'<text x="{x+14}" y="{H-31}" font-size="12.5" fill="#FFFFFF">🕒 <tspan fill="{BLUE}" font-weight="700">{esc(name)}</tspan> · {ago}</text></g>')
+        x += w + 10
+    p.append(f'<text x="30" y="{H-31}" font-size="12" fill="#8FA6BD">recently updated →</text>')
+    p.append(f'<rect x="0.5" y="0.5" width="{W-1}" height="{H-1}" rx="16" fill="none" stroke="{BLUE}" stroke-opacity="0.35"/></svg>')
+    with open(os.path.join(ROOT, "assets", "activity.svg"), "w", encoding="utf-8", newline="\n") as f:
+        f.write("\n".join(p))
+    links = " · ".join(f'<a href="{u}">{esc(n)}</a>' for n, u, _ in repos) or "<i>none in the last 90 days</i>"
+    replace_section("ACTIVITY",
+                    f'<p align="center">\n  <img src="./assets/activity.svg" width="100%" alt="{total} contributions in the last 30 days: '
+                    f'{public} public, {private} in private repos" />\n</p>\n\n<p align="center"><sub>🕒 Recently updated: {links}</sub></p>')
+    print(f"activity: total={total} public={public} private={private} days={len(days)}")
 
 
 # ------------------------------------------------------------------ tic-tac-toe
