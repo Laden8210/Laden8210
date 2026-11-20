@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="480" viewBox="0 0 900 480" font-family="'Segoe UI', Helvetica, Arial, sans-serif">
+<defs><filter id="gl" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<linearGradient id="cb" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1F3757"/><stop offset="1" stop-color="#0E1A2C"/></linearGradient>
+<radialGradient id="bg" cx="50%" cy="40%" r="75%"><stop offset="0" stop-color="#16294A"/><stop offset="1" stop-color="#080F1C"/></radialGradient>
+</defs>
+<rect width="900" height="480" rx="16" fill="url(#bg)"/>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.6s" begin="0.20s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="0 18" to="0 0" dur="0.6s" begin="0.20s" fill="freeze" additive="sum"/>
+<rect x="15" y="15" width="280" height="140" rx="12" fill="url(#cb)" stroke="#7FB8C9" stroke-opacity="0.35"/>
+<rect x="15" y="15" width="280" height="140" rx="12" fill="#E8A33D" fill-opacity="0.06" stroke="#E8A33D" stroke-width="2" filter="url(#gl)" opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.0000;0.0200;0.0911;0.1111;1" dur="13.5s" begin="1.5s" repeatCount="indefinite"/></rect>
+<g><animateTransform attributeName="transform" type="translate" values="0 0;0 -5;0 0" dur="2.6s" begin="0.0s" repeatCount="indefinite"/><circle cx="55" cy="57" r="23" fill="#1B2F4B" stroke="#7FB8C9" stroke-opacity="0.5"/><text x="55" y="66" text-anchor="middle" font-size="24">🌐</text></g>
+<text x="89" y="55" font-size="15" font-weight="700" fill="#FFFFFF">Full-Stack Web &amp; Mobile</text>
+<rect x="89" y="65" height="3" rx="1.5" fill="#E8A33D" width="0"><animate attributeName="width" from="0" to="46" dur="0.8s" begin="0.60s" fill="freeze"/></rect>
+<text x="37" y="107" font-size="13" fill="#C9D6E3">End-to-end apps across web,</text>
+<text x="37" y="127" font-size="13" fill="#C9D6E3">iOS, and Android</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.6s" begin="0.32s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="0 18" to="0 0" dur="0.6s" begin="0.32s" fill="freeze" additive="sum"/>
+<rect x="310" y="15" width="280" height="140" rx="12" fill="url(#cb)" stroke="#7FB8C9" stroke-opacity="0.35"/>
+<rect x="310" y="15" width="280" height="140" rx="12" fill="#E8A33D" fill-opacity="0.06" stroke="#E8A33D" stroke-width="2" filter="url(#gl)" opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.1101;0.1311;0.2022;0.2222;1" dur="13.5s" begin="1.5s" repeatCount="indefinite"/></rect>
+<g><animateTransform attributeName="transform" type="translate" values="0 0;0 -5;0 0" dur="3.0s" begin="0.3s" repeatCount="indefinite"/><circle cx="350" cy="57" r="23" fill="#1B2F4B" stroke="#7FB8C9" stroke-opacity="0.5"/><text x="350" y="66" text-anchor="middle" font-size="24">📱</text></g>
+<text x="384" y="55" font-size="15" font-weight="700" fill="#FFFFFF">Cross-Platform Mobile</text>
+<rect x="384" y="65" height="3" rx="1.5" fill="#E8A33D" width="0"><animate attributeName="width" from="0" to="46" dur="0.8s" begin="0.72s" fill="freeze"/></rect>
+<text x="332" y="107" font-size="13" fill="#C9D6E3">React Native and native</text>
+<text x="332" y="127" font-size="13" fill="#C9D6E3">Android (Java)</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.6s" begin="0.44s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="0 18" to="0 0" dur="0.6s" begin="0.44s" fill="freeze" additive="sum"/>
+<rect x="605" y="15" width="280" height="140" rx="12" fill="url(#cb)" stroke="#7FB8C9" stroke-opacity="0.35"/>
+<rect x="605" y="15" width="280" height="140" rx="12" fill="#E8A33D" fill-opacity="0.06" stroke="#E8A33D" stroke-width="2" filter="url(#gl)" opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.2212;0.2422;0.3133;0.3333;1" dur="13.5s" begin="1.5s" repeatCount="indefinite"/></rect>
+<g><animateTransform attributeName="transform" type="translate" values="0 0;0 -5;0 0" dur="3.4s" begin="0.6s" repeatCount="indefinite"/><circle cx="645" cy="57" r="23" fill="#1B2F4B" stroke="#7FB8C9" stroke-opacity="0.5"/><text x="645" y="66" text-anchor="middle" font-size="24">🎨</text></g>
+<text x="679" y="55" font-size="15" font-weight="700" fill="#FFFFFF">Frontend Interfaces</text>
+<rect x="679" y="65" height="3" rx="1.5" fill="#E8A33D" width="0"><animate attributeName="width" from="0" to="46" dur="0.8s" begin="0.84s" fill="freeze"/></rect>
+<text x="627" y="107" font-size="13" fill="#C9D6E3">Next.js, React, TypeScript,</text>
+<text x="627" y="127" font-size="13" fill="#C9D6E3">Tailwind CSS</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.6s" begin="0.56s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="0 18" to="0 0" dur="0.6s" begin="0.56s" fill="freeze" additive="sum"/>
+<rect x="15" y="170" width="280" height="140" rx="12" fill="url(#cb)" stroke="#7FB8C9" stroke-opacity="0.35"/>
+<rect x="15" y="170" width="280" height="140" rx="12" fill="#E8A33D" fill-opacity="0.06" stroke="#E8A33D" stroke-width="2" filter="url(#gl)" opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.3323;0.3533;0.4244;0.4444;1" dur="13.5s" begin="1.5s" repeatCount="indefinite"/></rect>
+<g><animateTransform attributeName="transform" type="translate" values="0 0;0 -5;0 0" dur="2.6s" begin="0.9s" repeatCount="indefinite"/><circle cx="55" cy="212" r="23" fill="#1B2F4B" stroke="#7FB8C9" stroke-opacity="0.5"/><text x="55" y="221" text-anchor="middle" font-size="24">⚙️</text></g>
+<text x="89" y="210" font-size="15" font-weight="700" fill="#FFFFFF">Backend APIs &amp; Services</text>
+<rect x="89" y="220" height="3" rx="1.5" fill="#E8A33D" width="0"><animate attributeName="width" from="0" to="46" dur="0.8s" begin="0.96s" fill="freeze"/></rect>
+<text x="37" y="262" font-size="13" fill="#C9D6E3">Nest.js, Laravel, Express.js,</text>
+<text x="37" y="282" font-size="13" fill="#C9D6E3">FastAPI</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.6s" begin="0.68s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="0 18" to="0 0" dur="0.6s" begin="0.68s" fill="freeze" additive="sum"/>
+<rect x="310" y="170" width="280" height="140" rx="12" fill="url(#cb)" stroke="#7FB8C9" stroke-opacity="0.35"/>
+<rect x="310" y="170" width="280" height="140" rx="12" fill="#E8A33D" fill-opacity="0.06" stroke="#E8A33D" stroke-width="2" filter="url(#gl)" opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.4434;0.4644;0.5356;0.5556;1" dur="13.5s" begin="1.5s" repeatCount="indefinite"/></rect>
+<g><animateTransform attributeName="transform" type="translate" values="0 0;0 -5;0 0" dur="3.0s" begin="1.2s" repeatCount="indefinite"/><circle cx="350" cy="212" r="23" fill="#1B2F4B" stroke="#7FB8C9" stroke-opacity="0.5"/><text x="350" y="221" text-anchor="middle" font-size="24">☁️</text></g>
+<text x="384" y="210" font-size="15" font-weight="700" fill="#FFFFFF">Cloud &amp; DevOps</text>
+<rect x="384" y="220" height="3" rx="1.5" fill="#E8A33D" width="0"><animate attributeName="width" from="0" to="46" dur="0.8s" begin="1.08s" fill="freeze"/></rect>
+<text x="332" y="262" font-size="13" fill="#C9D6E3">Terraform, Docker, GitHub</text>
+<text x="332" y="282" font-size="13" fill="#C9D6E3">Actions, GCP, AWS</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.6s" begin="0.80s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="0 18" to="0 0" dur="0.6s" begin="0.80s" fill="freeze" additive="sum"/>
+<rect x="605" y="170" width="280" height="140" rx="12" fill="url(#cb)" stroke="#7FB8C9" stroke-opacity="0.35"/>
+<rect x="605" y="170" width="280" height="140" rx="12" fill="#E8A33D" fill-opacity="0.06" stroke="#E8A33D" stroke-width="2" filter="url(#gl)" opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.5546;0.5756;0.6467;0.6667;1" dur="13.5s" begin="1.5s" repeatCount="indefinite"/></rect>
+<g><animateTransform attributeName="transform" type="translate" values="0 0;0 -5;0 0" dur="3.4s" begin="1.5s" repeatCount="indefinite"/><circle cx="645" cy="212" r="23" fill="#1B2F4B" stroke="#7FB8C9" stroke-opacity="0.5"/><text x="645" y="221" text-anchor="middle" font-size="24">🧠</text></g>
+<text x="679" y="210" font-size="15" font-weight="700" fill="#FFFFFF">AI &amp; Data Solutions</text>
+<rect x="679" y="220" height="3" rx="1.5" fill="#E8A33D" width="0"><animate attributeName="width" from="0" to="46" dur="0.8s" begin="1.20s" fill="freeze"/></rect>
+<text x="627" y="262" font-size="13" fill="#C9D6E3">RAG, vector search, MCP, LLM</text>
+<text x="627" y="282" font-size="13" fill="#C9D6E3">apps</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.6s" begin="0.92s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="0 18" to="0 0" dur="0.6s" begin="0.92s" fill="freeze" additive="sum"/>
+<rect x="15" y="325" width="280" height="140" rx="12" fill="url(#cb)" stroke="#7FB8C9" stroke-opacity="0.35"/>
+<rect x="15" y="325" width="280" height="140" rx="12" fill="#E8A33D" fill-opacity="0.06" stroke="#E8A33D" stroke-width="2" filter="url(#gl)" opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.6657;0.6867;0.7578;0.7778;1" dur="13.5s" begin="1.5s" repeatCount="indefinite"/></rect>
+<g><animateTransform attributeName="transform" type="translate" values="0 0;0 -5;0 0" dur="2.6s" begin="1.8s" repeatCount="indefinite"/><circle cx="55" cy="367" r="23" fill="#1B2F4B" stroke="#7FB8C9" stroke-opacity="0.5"/><text x="55" y="376" text-anchor="middle" font-size="24">💾</text></g>
+<text x="89" y="365" font-size="15" font-weight="700" fill="#FFFFFF">Database Design &amp; Tuning</text>
+<rect x="89" y="375" height="3" rx="1.5" fill="#E8A33D" width="0"><animate attributeName="width" from="0" to="46" dur="0.8s" begin="1.32s" fill="freeze"/></rect>
+<text x="37" y="417" font-size="13" fill="#C9D6E3">PostgreSQL, MySQL, MSSQL,</text>
+<text x="37" y="437" font-size="13" fill="#C9D6E3">SQLite</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.6s" begin="1.04s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="0 18" to="0 0" dur="0.6s" begin="1.04s" fill="freeze" additive="sum"/>
+<rect x="310" y="325" width="280" height="140" rx="12" fill="url(#cb)" stroke="#7FB8C9" stroke-opacity="0.35"/>
+<rect x="310" y="325" width="280" height="140" rx="12" fill="#E8A33D" fill-opacity="0.06" stroke="#E8A33D" stroke-width="2" filter="url(#gl)" opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.7768;0.7978;0.8689;0.8889;1" dur="13.5s" begin="1.5s" repeatCount="indefinite"/></rect>
+<g><animateTransform attributeName="transform" type="translate" values="0 0;0 -5;0 0" dur="3.0s" begin="2.1s" repeatCount="indefinite"/><circle cx="350" cy="367" r="23" fill="#1B2F4B" stroke="#7FB8C9" stroke-opacity="0.5"/><text x="350" y="376" text-anchor="middle" font-size="24">🔐</text></g>
+<text x="384" y="365" font-size="15" font-weight="700" fill="#FFFFFF">Security</text>
+<rect x="384" y="375" height="3" rx="1.5" fill="#E8A33D" width="0"><animate attributeName="width" from="0" to="46" dur="0.8s" begin="1.44s" fill="freeze"/></rect>
+<text x="332" y="417" font-size="13" fill="#C9D6E3">Pentesting, OWASP Top 10,</text>
+<text x="332" y="437" font-size="13" fill="#C9D6E3">network security</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.6s" begin="1.16s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="0 18" to="0 0" dur="0.6s" begin="1.16s" fill="freeze" additive="sum"/>
+<rect x="605" y="325" width="280" height="140" rx="12" fill="url(#cb)" stroke="#7FB8C9" stroke-opacity="0.35"/>
+<rect x="605" y="325" width="280" height="140" rx="12" fill="#E8A33D" fill-opacity="0.06" stroke="#E8A33D" stroke-width="2" filter="url(#gl)" opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.8879;0.9089;0.9800;1.0000;1" dur="13.5s" begin="1.5s" repeatCount="indefinite"/></rect>
+<g><animateTransform attributeName="transform" type="translate" values="0 0;0 -5;0 0" dur="3.4s" begin="2.4s" repeatCount="indefinite"/><circle cx="645" cy="367" r="23" fill="#1B2F4B" stroke="#7FB8C9" stroke-opacity="0.5"/><text x="645" y="376" text-anchor="middle" font-size="24">🤖</text></g>
+<text x="679" y="365" font-size="15" font-weight="700" fill="#FFFFFF">Robotics &amp; IoT</text>
+<rect x="679" y="375" height="3" rx="1.5" fill="#E8A33D" width="0"><animate attributeName="width" from="0" to="46" dur="0.8s" begin="1.56s" fill="freeze"/></rect>
+<text x="627" y="417" font-size="13" fill="#C9D6E3">Arduino, Raspberry Pi, sensors</text>
+</g>
+<rect x="0.5" y="0.5" width="899" height="479" rx="16" fill="none" stroke="#7FB8C9" stroke-opacity="0.35"/></svg>

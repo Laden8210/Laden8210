@@ -99,109 +99,61 @@ const john = {
   </a>
 </p>
 
-**📱 Mobile**
-<p>
-  <img src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DBFB" />
-  <img src="https://img.shields.io/badge/iOS-000000?style=for-the-badge&logo=apple&logoColor=white" />
-  <img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" />
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
-</p>
-
-**🎨 Frontend**
-<p>
-  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
-  <img src="https://img.shields.io/badge/React-61DBFB?style=for-the-badge&logo=react&logoColor=black" />
-  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
-</p>
-
-**⚙️ Backend**
-<p>
-  <img src="https://img.shields.io/badge/Nest.js-E0234E?style=for-the-badge&logo=nestjs&logoColor=white" />
-  <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" />
-  <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" />
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
-  <img src="https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white" />
-  <img src="https://img.shields.io/badge/PHP-8892BF?style=for-the-badge&logo=php&logoColor=white" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-</p>
-
-**🛠️ DevOps & Cloud**
-<p>
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white" />
-  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white" />
-  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white" />
-  <img src="https://img.shields.io/badge/Vertex_AI-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white" />
-  <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" />
-  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" />
-</p>
-
-**🧠 AI & Data**
-<p>
-  <img src="https://img.shields.io/badge/RAG-FF6F00?style=for-the-badge&logo=openai&logoColor=white" />
-  <img src="https://img.shields.io/badge/MCP-191919?style=for-the-badge&logo=anthropic&logoColor=white" />
-  <img src="https://img.shields.io/badge/pgvector-336791?style=for-the-badge&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/Vector_DBs-6E40C9?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/LLM_Apps-10B981?style=for-the-badge" />
-</p>
-
-**💾 Databases**
-<p>
-  <img src="https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white" />
-  <img src="https://img.shields.io/badge/MSSQL-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white" />
-  <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" />
-</p>
-
-**🔐 Security · 🤖 Robotics & IoT**
-<p>
-  <img src="https://img.shields.io/badge/Pentesting-D32F2F?style=for-the-badge&logo=hackthebox&logoColor=white" />
-  <img src="https://img.shields.io/badge/OWASP_Top_10-000000?style=for-the-badge&logo=owasp&logoColor=white" />
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
-  <img src="https://img.shields.io/badge/TryHackMe-212C42?style=for-the-badge&logo=tryhackme&logoColor=white" />
-  <img src="https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white" />
-  <img src="https://img.shields.io/badge/Raspberry_Pi-A22846?style=for-the-badge&logo=raspberrypi&logoColor=white" />
+<p align="center">
+  <img src="./assets/techstack.svg" width="100%" alt="Tech stack: Mobile (React Native, iOS, Android, Java); Frontend (Next.js, React, TypeScript, Tailwind CSS); Backend (Nest.js, Laravel, Express.js, FastAPI, Prisma, PHP, Python); DevOps & Cloud (Docker, Terraform, GitHub Actions, GCP, AWS, Vertex AI); AI & Data (RAG, MCP, pgvector, Vector DBs, LLM Apps); Databases & BaaS (PostgreSQL, MySQL, MSSQL, SQLite, Supabase, Firebase); Security & IoT (Pentesting, OWASP Top 10, Linux, Arduino, Raspberry Pi)" />
 </p>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 ## 🧩 What I Do
 
-| | Service | Focus |
-|---|---|---|
-| 🌐 | **Full-Stack Web & Mobile** | End-to-end apps across web, iOS, and Android |
-| 📱 | **Cross-Platform Mobile** | React Native, native Android (Java) |
-| 🎨 | **Frontend Interfaces** | Next.js, React, TypeScript, Tailwind |
-| ⚙️ | **Backend APIs & Services** | Nest.js, Laravel, Express.js, FastAPI |
-| ☁️ | **Cloud & DevOps** | Terraform, Docker, GitHub Actions, GCP, AWS |
-| 🧠 | **AI & Data Solutions** | RAG, vector search, MCP, LLM apps |
-| 💾 | **Database Design & Tuning** | PostgreSQL, MySQL, MSSQL, SQLite |
-| 🔐 | **Security** | Pentesting, OWASP Top 10, network security |
-| 🤖 | **Robotics & IoT** | Arduino, Raspberry Pi, sensors |
+<p align="center">
+  <img src="./assets/services.svg" width="100%" alt="Services: full-stack web & mobile, cross-platform mobile, frontend interfaces, backend APIs, cloud & DevOps, AI & data solutions, database design, security, robotics & IoT" />
+</p>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 ## 🌟 Featured Projects
 
-| Project | Description | Stack |
-|---|---|---|
-| **[Sakari Management](https://github.com/Laden8210/sakariv-v2)** · [Live](https://sakarimanagement.com) | Client & operations platform for a virtual assistant provider | Laravel · PHP · MySQL |
-| **[PDL Information System](https://github.com/Laden8210/pdl-is)** | Case management with role-based dashboards | Next.js · TypeScript · Prisma |
-| **[Weather Forecasting](https://github.com/Laden8210/weather-forecasting)** | ML-based forecasting with visualization | Python · ML |
-| **[NASA Social](https://github.com/Laden8210/nasa-social)** | Social platform around NASA open data | Laravel · Blade |
-| **[Fairmont](https://github.com/Laden8210/fairmont)** | Hospitality & property management platform | Laravel · Blade |
-| **Dropshipping Ecosystem** · [Web](https://github.com/Laden8210/dropshipping) · [Mobile](https://github.com/Laden8210/dropshipping_mobile) · [Courier](https://github.com/Laden8210/Dropshipping_Courier) | Web backend, Android storefront, and courier app | Laravel · Java · Android |
-| **[BMove](https://github.com/Laden8210/bmove-2)** | Logistics & moving services platform | Laravel · PHP |
-| **YBL Platform** · [Backend](https://github.com/Laden8210/ybl-backend) · [Mobile](https://github.com/Laden8210/YBL) | Laravel admin/API with an Android client | Laravel · Java · Android |
-| **Computer Vision Apps** · [YOLO](https://github.com/Laden8210/yolo-app) · [ASL](https://github.com/Laden8210/asl) | YOLO object detection on Android, ASL recognition | Python · Java · YOLO |
-| **[RFID Borrowing IMS](https://github.com/Laden8210/Thesis-RFID-Borrowing-IMS)** | Thesis: real-time equipment checkout | PHP · RFID · IoT |
-| **[POS Project](https://github.com/Laden8210/POS-Project)** | Point-of-sale with inventory & receipts | PHP · MySQL |
-| **[EPet](https://github.com/Laden8210/EPet)** | Pet care app for activities, reminders & records | Java · Android |
+<p align="center"><i>Click any card to open its source.</i></p>
 
-<p align="center"><i>More on <a href="http://nasa-ph.com/">nasa-ph.com</a></i></p>
+<p align="center">
+  <a href="https://github.com/Laden8210/sakariv-v2"><img src="./assets/projects/sakari.svg" width="49%" alt="Sakari Management" /></a>
+  <a href="https://github.com/Laden8210/pdl-is"><img src="./assets/projects/pdl-is.svg" width="49%" alt="PDL Information System" /></a>
+</p>
+<p align="center">
+  <a href="https://github.com/Laden8210/weather-forecasting"><img src="./assets/projects/weather.svg" width="49%" alt="Weather Forecasting" /></a>
+  <a href="https://github.com/Laden8210/nasa-social"><img src="./assets/projects/nasa-social.svg" width="49%" alt="NASA Social" /></a>
+</p>
+<p align="center">
+  <a href="https://github.com/Laden8210/fairmont"><img src="./assets/projects/fairmont.svg" width="49%" alt="Fairmont" /></a>
+  <a href="https://github.com/Laden8210/dropshipping"><img src="./assets/projects/dropshipping.svg" width="49%" alt="Dropshipping Ecosystem" /></a>
+</p>
+<p align="center">
+  <a href="https://github.com/Laden8210/bmove-2"><img src="./assets/projects/bmove.svg" width="49%" alt="BMove" /></a>
+  <a href="https://github.com/Laden8210/ybl-backend"><img src="./assets/projects/ybl.svg" width="49%" alt="YBL Platform" /></a>
+</p>
+<p align="center">
+  <a href="https://github.com/Laden8210/yolo-app"><img src="./assets/projects/cv.svg" width="49%" alt="Computer Vision Apps" /></a>
+  <a href="https://github.com/Laden8210/Thesis-RFID-Borrowing-IMS"><img src="./assets/projects/rfid.svg" width="49%" alt="RFID Borrowing IMS" /></a>
+</p>
+<p align="center">
+  <a href="https://github.com/Laden8210/POS-Project"><img src="./assets/projects/pos.svg" width="49%" alt="POS Project" /></a>
+  <a href="https://github.com/Laden8210/EPet"><img src="./assets/projects/epet.svg" width="49%" alt="EPet" /></a>
+</p>
+
+<p align="center">
+  <sub>
+    🔗 More links:
+    <a href="https://sakarimanagement.com">Sakari (live)</a> ·
+    <a href="https://github.com/Laden8210/dropshipping_mobile">Dropshipping Mobile</a> ·
+    <a href="https://github.com/Laden8210/Dropshipping_Courier">Dropshipping Courier</a> ·
+    <a href="https://github.com/Laden8210/YBL">YBL Mobile</a> ·
+    <a href="https://github.com/Laden8210/asl">ASL Recognition</a> ·
+    <a href="https://github.com/Laden8210/THESIS-SYSTEM">Thesis System</a> ·
+    <a href="http://nasa-ph.com/">more on nasa-ph.com</a>
+  </sub>
+</p>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
@@ -263,7 +215,7 @@ const john = {
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Laden8210/Laden8210/output/3d/profile-night-rainbow.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Laden8210/Laden8210/output/3d/profile-season-animation.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Laden8210/Laden8210/output/3d/profile-season-animate.svg" />
     <img alt="3D contribution graph" src="https://raw.githubusercontent.com/Laden8210/Laden8210/output/3d/profile-night-rainbow.svg" width="100%" />
   </picture>
 </p>
