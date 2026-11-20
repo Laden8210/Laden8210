@@ -285,15 +285,15 @@ const john = {
 <p align="center">
   <a href="https://github.com/Laden8210/Laden8210/issues/new?title=ttt%7Cmove%7C3&body=Just+press+%22Create%22+%E2%80%94+no+need+to+write+anything.+The+bot+answers+in+about+a+minute."><img src="./assets/ttt/empty.svg" width="86" alt="play square 4" /></a>
   <img src="./assets/ttt/o.svg" width="86" alt="O" />
-  <a href="https://github.com/Laden8210/Laden8210/issues/new?title=ttt%7Cmove%7C5&body=Just+press+%22Create%22+%E2%80%94+no+need+to+write+anything.+The+bot+answers+in+about+a+minute."><img src="./assets/ttt/empty.svg" width="86" alt="play square 6" /></a>
+  <img src="./assets/ttt/x.svg" width="86" alt="X" />
 </p>
 <p align="center">
   <a href="https://github.com/Laden8210/Laden8210/issues/new?title=ttt%7Cmove%7C6&body=Just+press+%22Create%22+%E2%80%94+no+need+to+write+anything.+The+bot+answers+in+about+a+minute."><img src="./assets/ttt/empty.svg" width="86" alt="play square 7" /></a>
   <a href="https://github.com/Laden8210/Laden8210/issues/new?title=ttt%7Cmove%7C7&body=Just+press+%22Create%22+%E2%80%94+no+need+to+write+anything.+The+bot+answers+in+about+a+minute."><img src="./assets/ttt/empty.svg" width="86" alt="play square 8" /></a>
-  <a href="https://github.com/Laden8210/Laden8210/issues/new?title=ttt%7Cmove%7C8&body=Just+press+%22Create%22+%E2%80%94+no+need+to+write+anything.+The+bot+answers+in+about+a+minute."><img src="./assets/ttt/empty.svg" width="86" alt="play square 9" /></a>
+  <img src="./assets/ttt/o.svg" width="86" alt="O" />
 </p>
 
-<p align="center"><sub>Scoreboard · visitors <b>0</b> · bot <b>0</b> · draws <b>0</b><br/>Latest players: [@Laden8210](https://github.com/Laden8210)</sub></p>
+<p align="center"><sub>Scoreboard · visitors <b>0</b> · bot <b>0</b> · draws <b>0</b><br/>Latest players: [@Laden8210](https://github.com/Laden8210), [@Laden8210](https://github.com/Laden8210)</sub></p>
 <!--TTT:END-->
 
 <p align="center"><sub>Each move opens a GitHub issue; a GitHub Action plays the bot's reply and updates this board.</sub></p>

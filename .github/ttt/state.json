@@ -1,5 +1,5 @@
 {
- "board": "X   O    ",
+ "board": "X   OX  O",
  "status": "playing",
  "stats": {
   "you": 0,
@@ -10,6 +10,10 @@
   {
    "user": "Laden8210",
    "cell": 0
+  },
+  {
+   "user": "Laden8210",
+   "cell": 5
   }
  ]
 }
