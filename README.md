@@ -1,6 +1,6 @@
-<!-- 🌊 Animated Wave Header -->
+<!-- 🌌 Animated Space Hero -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1B2F4B,50:7FB8C9,100:E8A33D&height=140&section=header&text=Mabuhay!%20%F0%9F%87%B5%F0%9F%87%AD&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38" width="100%" />
+  <img src="./assets/hero.svg" width="100%" alt="John Michael Domingo — Full Stack & Mobile Developer · NASA PH" />
 </p>
 
 <!-- 🖼️ NASA PH Cover -->
@@ -58,6 +58,12 @@ const john = {
 
 </details>
 
+### 💻 `> whoami`
+
+<p align="center">
+  <img src="./assets/terminal.svg" width="85%" alt="Animated terminal: whoami, work, stack, deploy" />
+</p>
+
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 ## 💼 Experience
@@ -69,6 +75,10 @@ const john = {
 - Design RAG pipelines and vector search for enterprise clients
 - Use MCP to standardize data/tool integrations
 - Architected **Hivemind**, a unified AI platform with multi-tenant infrastructure and prompt modules
+
+<p align="center">
+  <img src="./assets/hivemind.svg" width="85%" alt="Hivemind: tenants flow through the AI hub into RAG, vector DB, MCP tools and LLMs" />
+</p>
 
 **Freelance Full Stack & Mobile Developer** · *2023 – 2025*
 - Delivered 20+ projects with Next.js, Laravel, and Prisma
@@ -195,6 +205,23 @@ const john = {
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
+## 🕶️ Hacker Mode
+
+<p align="center">
+  <img src="./assets/hacker.svg" width="100%" alt="Matrix rain, an authorized pentest run, and ACCESS GRANTED" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/TryHackMe-Pre_Security-212C42?style=for-the-badge&logo=tryhackme&logoColor=white" />
+  <img src="https://img.shields.io/badge/OWASP-Top_10-000000?style=for-the-badge&logo=owasp&logoColor=white" />
+  <img src="https://img.shields.io/badge/Kali-Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white" />
+  <img src="https://img.shields.io/badge/Ethical-Hacking-39FF14?style=for-the-badge&logo=hackthebox&logoColor=black" />
+</p>
+
+<p align="center"><i>Breaking things (with permission) so they can be built stronger. 🔐</i></p>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+
 ## 🎓 Education & Certifications
 
 - 🎓 **B.S. Information Technology** — STI College Koronadal *(2021 – 2025)*
@@ -221,6 +248,16 @@ const john = {
 
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=Laden8210&theme=onedark&no-frame=true&no-bg=true&margin-w=6&row=1&column=7" />
+</p>
+
+### 🏙️ 3D Contribution City
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Laden8210/Laden8210/output/3d/profile-night-rainbow.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Laden8210/Laden8210/output/3d/profile-season-animation.svg" />
+    <img alt="3D contribution graph" src="https://raw.githubusercontent.com/Laden8210/Laden8210/output/3d/profile-night-rainbow.svg" width="100%" />
+  </picture>
 </p>
 
 ### 🐍 Contribution Snake
